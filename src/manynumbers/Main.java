@@ -39,12 +39,14 @@ public static void main(String[] args) {
 			System.out.println(localRandom1);
 			int userInt = scanner.nextInt();
 			if(userInt == localRandom1) {
-				score++; 
+				score += 1; 
 			} 
 		}
 		
 		System.out.println("You're score is: " + score); 
 		scanner.nextLine();
+		
+		score = 0; 
 	} 
 	
 	
