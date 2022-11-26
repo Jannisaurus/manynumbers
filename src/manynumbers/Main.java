@@ -28,6 +28,8 @@ public static void main(String[] args) {
 
 	String command; 
 	
+	//switch case baserat på score
+ 	
 	while(true) {
 
 	System.out.println("Press play");
